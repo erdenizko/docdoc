@@ -1,0 +1,17 @@
+{
+    "apiPrefix": "/api/v1",
+    "routesDir": "api/controllers",
+    "validatorsDir": "validators",
+    "outputFile": "docs/api-collection.json",
+    "baseUrl": "http://localhost:5000",
+    "collectionName": "Sample Project API",
+    "collectionDescription": "API documentation for Sample Project",
+    "routeFilePattern": ".api.js",
+    "validatorFilePattern": ".validator.js",
+    "tokenVariable": "apiToken",
+    "resourceDescriptions": {
+        "users": "User management endpoints",
+        "products": "Product management endpoints",
+        "orders": "Order management endpoints"
+    }
+}
